@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px;
+  width: 320px;
+}
+
+#footer-links a {
+  transition: transform 0.2s ease-in-out;
+}
+
+#footer-links a:hover {
+  transform: scale(1.4);
+}
+
+#footer-links img {
+  width: 30px;
+  height: 30px;
+}
