@@ -37,24 +37,45 @@
       </div>
     </nav>
     <main class="container">
-      <div class="row justify-content-md-center">
-        <div class="col-sm-4">
-          <h2>Hello! My name is</h2>
-          <h1 class="text-primary fs-1 fw-bolder">Stuart Scott.</h1>
-          <h2>I'm a software engineer.</h2>
+      <div class="row justify-content-md-center mt-5 pt-5">
+        <div class="col-sm-8 mt-5 pt-5">
+          <h2 class="text-center display-3 fw-bold">Hello! My name is</h2>
+          <h1 class="text-primary display-1 fw-bolder text-center">Stuart Scott.</h1>
+          <h2 class="text-center display-3 fw-bold">I'm a software engineer.</h2>
         </div>
       </div>
-      <div></div>
-      <section class="row justify-content-md-center">
-        <div class="col-md-4">
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center pt-2">
+        <a href="#" class="btn btn-outline-dark" role="button"
+          >View Portfolio
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            width="30"
+            height="30"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M6.75 0A1.75 1.75 0 005 1.75V3H1.75A1.75 1.75 0 000 4.75v8.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3H11V1.75A1.75 1.75 0 009.25 0h-2.5zM9.5 3V1.75a.25.25 0 00-.25-.25h-2.5a.25.25 0 00-.25.25V3h3zM5 4.5H1.75a.25.25 0 00-.25.25V6a2 2 0 002 2h9a2 2 0 002-2V4.75a.25.25 0 00-.25-.25H5zm-1.5 5a3.484 3.484 0 01-2-.627v4.377c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V8.873a3.484 3.484 0 01-2 .627h-9z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+      <div class="row justify-content-md-center mt-5 pt-5">
+        <div class="col-sm-4 mt-5 pt-5">
+          <h1 class="text-center display-2 fw-bold">Portfolio</h1>
+        </div>
+      </div>
+      <section class="row justify-content-md-center mt-5 pt-5">
+        <div class="col-md-4 mt-5 pt-5">
           <form class="block form-horizontal">
-            <h1 class="block-header-center">Contact</h1>
+            <h1 class="block-header-center text-center display-2">Contact</h1>
             <hr />
             <div class="form-group">
               <label for="name" class="col-sm-2 control-label">Name</label>
               <div class="col-sm-10">
                 <input
-                  type="email"
+                  type="name"
                   class="form-control"
                   id="name"
                   placeholder="Name"
@@ -65,7 +86,7 @@
               <label for="email" class="col-sm-2 control-label">Email</label>
               <div class="col-sm-10">
                 <input
-                  type="password"
+                  type="email"
                   class="form-control"
                   id="email"
                   placeholder="Email"
@@ -83,7 +104,7 @@
                 ></textarea>
               </div>
             </div>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-center pt-2">
               <button type="button" class="btn btn-outline-dark">
                 Send Message
                 <svg
